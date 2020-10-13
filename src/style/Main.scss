@@ -1,0 +1,47 @@
+body{
+    background-color: white!important;
+    .container{
+        .row{
+            margin-top: 110px;
+            .col-md-4{
+                .card{
+                    border: none;
+                    background-color: #080B20;
+                    width: 155%;
+                    margin-left: -100px;
+                    .card-header{
+                        border: none;
+                        color: white;
+                    }
+                    .card-body{
+                        margin-left: 50px;
+                        #time{//Vaqtlarni o'rab turgan property
+                            display: flex;
+                            margin-left: 11px;
+                            div{
+                                font-size: 3rem;
+                                color: white;
+                                &:nth-child(3){// 3-divdagi seconds uchun
+                                    margin-left: -15px;
+                                }
+                                #hours{
+                                    margin-left: 9px;
+                                }
+                                #minutes{
+                                    margin-left: 25px;
+                                }
+                                #seconds{
+                                    margin-left: 26px;
+                                }
+                                #name{//vaqtlarni nomi uchun
+                                    font-size: 2rem;
+                                    margin: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
